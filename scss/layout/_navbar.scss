@@ -1,0 +1,32 @@
+.navbar {
+  background-color: var(--off-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  @media screen and (min-width: 1200px) {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.logo h1 {
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--dark-grape);
+  border-bottom: solid 1px var(--dark-grape)
+}
+
+.navlinks {
+  display: flex;
+
+  a {
+    padding: 1rem;
+  }
+
+  a:hover {
+    background-color: var(--dark-grape);
+    color: white;
+  }
+}

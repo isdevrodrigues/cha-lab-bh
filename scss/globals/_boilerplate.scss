@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  // background-color: var(--off-white);
+  background-color: black;
+}
+
+a {
+  color: inherit;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+}

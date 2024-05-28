@@ -1,0 +1,82 @@
+.section__layout {
+
+  // RESPONSIVENESS BELOW
+  // RESPONSIVENESS BELOW
+  // RESPONSIVENESS BELOW
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.layout__text {
+  padding: 0 1rem;
+
+  h1 {
+    color: var(--dark-grape);
+    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: center;
+    margin: 2rem auto 2rem;
+  }
+
+  p {
+    margin: 1rem auto 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // RESPONSIVENESS BELOW
+  // RESPONSIVENESS BELOW
+  // RESPONSIVENESS BELOW
+
+  @media screen and (min-width: 1200px) {
+    width: 70%;
+
+    h1 {
+      font-size: 3.1rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.media__img {
+  display: block;
+  margin: 2rem auto 0;
+  max-width: 100%;
+
+  @media screen and (min-width: 1200px) {
+    float: left;
+    width: 742px;
+    height: 742px;
+    object-fit: cover;
+  }
+}
+
+.ingredients_table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-right: 3rem;
+  font-size: 1.2em;
+  min-width: 400px;
+  background-color: black;
+}
+
+.ingredients_table th,
+.ingredients_table td {
+  border: 1px solid #401529;
+  padding: 12px 15px;
+  text-align: left;
+}
