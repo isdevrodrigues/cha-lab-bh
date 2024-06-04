@@ -1,5 +1,7 @@
 # Chá Lab Bubble Tea Website
 
+[View Demo](https://isdevrodrigues.github.io/cha-lab-bh/)
+
 This project is a reflection of my personal journey through the basics of web development, particularly HTML, CSS, and SASS. It's aim is to serve as both a learning milestone and a platform to share my progress.
 
 ### Key Features:
