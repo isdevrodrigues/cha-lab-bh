@@ -4,12 +4,6 @@
 
 This project is a reflection of my personal journey through the basics of web development, particularly HTML, CSS, and SASS. It's aim is to serve as both a learning milestone and a platform to share my progress.
 
-### Key Features:
-
-- **Responsive Design**: Ensuring accessibility and a seamless experience across desktop and mobile.
-- **Interactive UI**: An engaging user interface that balances aesthetics with functionality.
-- **Localization**: Although the content is in Portuguese, the development practices and documentation are maintained in English for broader accessibility.
-
 ## Learning Outcomes
 
 Throughout the development of this website, I have acquired a multitude of skills and best practices, including but not limited to:
